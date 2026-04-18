@@ -1,0 +1,50 @@
+
+/* Text styling */
+h1 {
+  font-family: Arial, sans-serif;
+  color: darkblue;
+  text-align: center;
+}
+
+.intro {
+  font-size: 18px;
+  color: gray;
+}
+
+/* Box model */
+.box {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 15px auto;
+  text-align: center;
+}
+
+/* Flexbox */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.flex-item {
+  background-color: lightcoral;
+  padding: 10px;
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
+.grid-item {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
